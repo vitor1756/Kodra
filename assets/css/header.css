@@ -1,0 +1,98 @@
+.kd-header {
+    background-color: #5077FB;
+    width: 370px;
+    height: 1028px;
+}
+
+.kd-header h1 {
+    width: 70%;
+    margin: 84px auto;
+    text-align: center;
+    color: white;
+    line-height: 24px;
+}
+
+.kd-header nav {
+    padding: 35px 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.11);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.11);
+}
+
+.kd-header nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.kd-header nav ul li {
+    font-family: "Poppins-Regular";
+    color: white;
+    font-size: 18px;
+}
+
+.kd-header .header-itens {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.kd-header .header-itens .shots {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.kd-header .header-itens h2 {
+    font-size: 16px;
+    color: white;
+}
+
+.kd-header .header-itens .shots-img {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 17px;
+}
+
+.kd-header .header-itens .search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 289px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.308);
+    border-radius: 5px;
+    padding: 13px;
+}
+
+.kd-header .header-itens .search>div>img {
+    width: 16px;
+}
+
+.kd-header .header-itens .search input::placeholder {
+    color: white;
+}
+
+.kd-header .header-itens .social {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.kd-header .header-itens .social-icon {
+    display: flex;
+    gap: 10px;
+}
+
+.kd-header .header-itens .social-icon a {
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.308);
+    width: 44px;
+    height: 44px;
+}
+
+.kd-header .header-itens .social-icon a img {
+    width: 30px;
+    margin: 5px auto;
+    display: flex;
+}

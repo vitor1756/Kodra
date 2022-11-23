@@ -1,14 +1,19 @@
 .kd-header {
     background-color: #5077FB;
-    width: 370px;
+    max-width: 370px;
+    width: 100%;
     height: 1028px;
 }
 
 .kd-header h1 {
     width: 70%;
-    margin: 84px auto;
+    margin: 76px auto;
     text-align: center;
     color: white;
+    line-height: 24px;
+}
+
+.kd-header h1 figcaption {
     line-height: 24px;
 }
 
@@ -92,7 +97,7 @@
 }
 
 .kd-header .header-itens .social-icon a img {
-    width: 30px;
-    margin: 5px auto;
+    width: 20px;
+    margin: 10px auto;
     display: flex;
 }

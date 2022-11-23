@@ -114,6 +114,12 @@
 	font-display: swap;
 }
 
+@font-face {
+	font-family: "Montserrat-Regular";
+	src: url("../fonts/Montserrat-Regular.ttf");
+	font-display: swap;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -150,7 +156,8 @@ body {
     overflow-x: hidden;
     font-family: "Poppins-Regular";
     -ms-overflow-style: none;
-    padding: 100px 310px;
+    margin: 100px auto;
     display: flex;
     gap: 5px;
+	width: 1300px;
 }

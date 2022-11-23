@@ -313,13 +313,14 @@
 
 
 
-/* ARTICLE 4 */
+/* ARTICLE 5 */
 
 
 
 .kd-main .work-content article:nth-child(5) {
     background-image: url(../img/articleBG5.svg);
 }
+
 .kd-main .work-content article:nth-child(5)>div {
     display: flex;
     flex-direction: column;
@@ -360,7 +361,6 @@
     font-size: 17px;
     color: white;
     line-height: 14px;
-    text-align: right;
 }
 
 .kd-main .work-content article:nth-child(5)>div>div:nth-child(2)>h4 {
@@ -368,45 +368,395 @@
     font-size: 13px;
     color: #FFE000;
     line-height: 14px;
-    text-align: right;
 }
 
 
 
-
-
-
+/* ARTICLE 6 */
 
 
 
 .kd-main .work-content article:nth-child(6) {
     background-color: white;
 }
+.kd-main .work-content article:nth-child(6)>div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.kd-main .work-content article:nth-child(6)>div>div:nth-child(1) {
+    display: flex;
+    justify-content: end;
+    padding: 15px;
+    align-items: center;
+}
+
+.kd-main .work-content article:nth-child(6)>div>div:nth-child(1)>img:nth-child(1) {
+    padding: 13px;
+    cursor: pointer;
+    border: 1px solid #5077FB;
+    width: 44px;
+    background-color: #5077FB;
+}
+
+.kd-main .work-content article:nth-child(6)>div>div:nth-child(1)>img:nth-child(2) {
+    padding: 13px;
+    cursor: pointer;
+    border: 1px solid #5077FB;
+}
+
+.kd-main .work-content article:nth-child(6)>div>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 152px;
+    gap: 10px;
+}
+
+.kd-main .work-content article:nth-child(6)>div>div:nth-child(2)>h3 {
+    font-family: "Montserrat-Regular";
+    font-size: 17px;
+    color: #5077FB;
+    line-height: 14px;
+}
+
+.kd-main .work-content article:nth-child(6)>div>div:nth-child(2)>h4 {
+    font-family: "Poppins-Regular";
+    font-size: 13px;
+    color: black;
+    line-height: 14px;
+}
+
+
+
+/* ARTICLE 7 */
+
+
 
 .kd-main .work-content article:nth-child(7) {
     background-image: url(../img/articleBG7.svg);
 }
 
+.kd-main .work-content article:nth-child(7)>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.kd-main .work-content article:nth-child(7)>div>div:nth-child(1) {
+    display: flex;
+    justify-content: end;
+    padding: 15px;
+    align-items: center;
+}
+
+.kd-main .work-content article:nth-child(7)>div>div:nth-child(1)>img:nth-child(1) {
+    padding: 13px;
+    cursor: pointer;
+    background-color: #5077FB;
+}
+
+.kd-main .work-content article:nth-child(7)>div>div:nth-child(1)>img:nth-child(2) {
+    padding: 13px;
+    cursor: pointer;
+}
+
+.kd-main .work-content article:nth-child(7)>div>div:nth-child(2) {
+    background-color: #5077FB;
+    padding: 28px 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.kd-main .work-content article:nth-child(7)>div>div:nth-child(2)>h3 {
+    font-family: "Montserrat-Regular";
+    font-size: 17px;
+    color: white;
+    line-height: 14px;
+}
+
+.kd-main .work-content article:nth-child(7)>div>div:nth-child(2)>h4 {
+    font-family: "Poppins-Regular";
+    font-size: 13px;
+    color: #FFE000;
+    line-height: 14px;
+}
+
+
+
+/* ARTICLE 8 */
+
+
+
 .kd-main .work-content article:nth-child(8) {
     background-image: url(../img/articleBG8.svg);
 }
+
+.kd-main .work-content article:nth-child(8)>div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.kd-main .work-content article:nth-child(8)>div>div:nth-child(1) {
+    display: flex;
+    justify-content: end;
+    padding: 15px;
+    align-items: center;
+}
+
+.kd-main .work-content article:nth-child(8)>div>div:nth-child(1)>img:nth-child(1) {
+    padding: 13px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.329);
+    width: 44px;
+}
+
+.kd-main .work-content article:nth-child(8)>div>div:nth-child(1)>img:nth-child(2) {
+    padding: 13px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.kd-main .work-content article:nth-child(8)>div>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 152px;
+    gap: 10px;
+}
+
+.kd-main .work-content article:nth-child(8)>div>div:nth-child(2)>h3 {
+    font-family: "Montserrat-Regular";
+    font-size: 17px;
+    color: white;
+    line-height: 14px;
+}
+
+.kd-main .work-content article:nth-child(8)>div>div:nth-child(2)>h4 {
+    font-family: "Poppins-Regular";
+    font-size: 13px;
+    color: #FFE000;
+    line-height: 14px;
+}
+
+
+
+/* ARTICLE 9 */
+
+
 
 .kd-main .work-content article:nth-child(9) {
     background-image: url(../img/articleBG9.png);
     background-size: cover;
 }
 
+.kd-main .work-content article:nth-child(9)>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+    gap: 16px;
+}
+
+.kd-main .work-content article:nth-child(9)>div>div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.kd-main .work-content article:nth-child(9)>div>div:nth-child(1) img:nth-child(1) {
+    background-color: #5077FB;
+    padding: 13px;
+    cursor: pointer;
+    width: 42px;
+}
+
+.kd-main .work-content article:nth-child(9)>div>div:nth-child(1) img:nth-child(2) {
+    background-color: white;
+    padding: 13px;
+    cursor: pointer;
+}
+
+.kd-main .work-content article:nth-child(9)>div>div:nth-child(2) {
+    padding-bottom: 50px;
+}
+
+.kd-main .work-content article:nth-child(9)>div>div>h3 {
+    font-family: "Montserrat-Regular";
+    font-size: 17px;
+    color: white;
+    line-height: 14px;
+    text-align: center;
+}
+
+.kd-main .work-content article:nth-child(9)>div>div>h4 {
+    font-family: "Poppins-Regular";
+    font-size: 13px;
+    color: #FFE000;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+
+/* ARTICLE 10 */
+
+
+
 .kd-main .work-content article:nth-child(10) {
     background-color: #5077FB;
 }
 
+.kd-main .work-content article:nth-child(10)>div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.kd-main .work-content article:nth-child(10)>div>div:nth-child(1) {
+    display: flex;
+    justify-content: end;
+    padding: 15px;
+    align-items: center;
+}
+
+.kd-main .work-content article:nth-child(10)>div>div:nth-child(1)>img:nth-child(1) {
+    padding: 13px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.212);
+    border: 1px solid white;
+    width: 44px;
+}
+
+.kd-main .work-content article:nth-child(10)>div>div:nth-child(1)>img:nth-child(2) {
+    padding: 13px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.329);
+}
+
+.kd-main .work-content article:nth-child(10)>div>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 152px;
+    gap: 10px;
+}
+
+.kd-main .work-content article:nth-child(10)>div>div:nth-child(2)>h3 {
+    font-family: "Montserrat-Regular";
+    font-size: 17px;
+    color: white;
+    line-height: 14px;
+}
+
+.kd-main .work-content article:nth-child(10)>div>div:nth-child(2)>h4 {
+    font-family: "Poppins-Regular";
+    font-size: 13px;
+    color: #FFE000;
+    line-height: 14px;
+}
+
 /* BLOG */
 
-.kd-main .blog h2 {
+.kd-main .blog>h2 {
     background-color: white;
     padding: 33px 37px;
     font-family: "Montserrat-Regular";
     font-size: 22px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.kd-main .blog .blog-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.kd-main .blog .blog-content article {
+    display: flex;
+}
+
+.kd-main .blog .blog-content article figure {
+    height: 336px;
+}
+
+.kd-main .blog .blog-content article .blog-article-content {
+    background-color: white;
+    padding: 25px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.kd-main .blog .blog-content article .blog-article-content h2 {
+    font-family: "Montserrat-Regular";
+    color: black;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.kd-main .blog .blog-content article .blog-article-content .status {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.kd-main .blog .blog-content article .blog-article-content .status div {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.kd-main .blog .blog-content article .blog-article-content .status div span {
+    font-size: 13px;
+    color: black;
+    opacity: .5;
+    font-family: "Poppins-Regular";
+    line-height: 27px;
+}
+
+.kd-main .blog .blog-content article .blog-article-content p {
+    color: black;
+    opacity: .7;
+    font-family: "Poppins-Regular";
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.kd-main .blog .blog-content article .blog-article-content button {
+    font-family: "Poppins-Regular";
+    color: #5077FB;
+    padding: 15px 0;
+    border: 1px solid #5077FB;
+    cursor: pointer;
+    width: 120px;
+}
+
+.revert {
+    background-color: #5077FB !important;
+}
+
+.revert h2 {
+    color: white !important;
+}
+
+.revert span {
+    color: white !important;
+}
+
+.revert p {
+    color: white !important;
+}
+
+.revert button {
+    border: 1px solid white !important;
+    color: white !important;
 }

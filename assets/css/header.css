@@ -35,6 +35,28 @@
     font-size: 18px;
 }
 
+.btnAnimation01::before {
+    content: "";
+	width: 0px;
+	height: 0px;
+	background-color: white;
+	position: absolute;
+	top: -100%;
+	left: 0;
+	z-index: -1;
+	transition: 0.3s;
+	opacity: 0.6;
+}
+
+.btnAnimation01:hover::after {
+    width: 10px;
+    height: 10px;
+}
+
+.kd-header nav ul li a:hover  {
+    color: #FFE000;
+}
+
 .kd-header .header-itens {
     padding: 40px;
     display: flex;

@@ -740,6 +740,11 @@
     width: 120px;
 }
 
+.kd-main .blog .blog-content article .blog-article-content button:hover {
+    background-color: #5077FB;
+    color: white;
+}
+
 .revert {
     background-color: #5077FB !important;
 }
@@ -759,6 +764,11 @@
 .revert button {
     border: 1px solid white !important;
     color: white !important;
+}
+
+.revert button:hover {
+    background-color: white !important;
+    color: #5077FB !important;
 }
 
 
@@ -866,6 +876,7 @@
     display: flex;
     flex-direction: column;
     gap: 21px;
+    background-color: #E2E2E2;
 }
 
 .kd-main .team .team-content>article>div .team-social {
@@ -986,7 +997,20 @@
     padding: 14px;
 }
 
+.kd-main .contact .contact-content textarea {
+    border: 1px solid rgba(255, 255, 255, 0.308);
+    padding: 14px 0 0 14px;
+    height: 96px;
+    width: 100%;
+}
+
 .kd-main .contact .contact-content input::placeholder {
+    color: #F9F9F9;
+    font-family: "Montserrat-Regular";
+    font-size: 15px;
+}
+
+.kd-main .contact .contact-content textarea::placeholder {
     color: #F9F9F9;
     font-family: "Montserrat-Regular";
     font-size: 15px;
@@ -999,8 +1023,11 @@
     color: white;
     text-transform: uppercase;
     cursor: pointer;
+    margin-left: 293px;
+    margin-top: -3px;
 }
 
-.kd-main .contact .contact-content input:last-of-type {
-    padding-bottom: 63px;
+.kd-main .contact .contact-content button:hover {
+    background-color: white;
+    color: #5077FB;
 }

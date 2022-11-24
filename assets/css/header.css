@@ -33,28 +33,30 @@
     font-family: "Poppins-Regular";
     color: white;
     font-size: 18px;
+    display: flex;
 }
 
-.btnAnimation01::before {
-    content: "";
-	width: 0px;
-	height: 0px;
-	background-color: white;
-	position: absolute;
-	top: -100%;
-	left: 0;
-	z-index: -1;
-	transition: 0.3s;
-	opacity: 0.6;
-}
-
-.btnAnimation01:hover::after {
-    width: 10px;
-    height: 10px;
+.kd-header nav ul li a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .kd-header nav ul li a:hover  {
     color: #FFE000;
+}
+
+.kd-header nav ul li a:hover::after {
+    width: 22px;
+	height: 2px;
+}
+
+.kd-header nav ul li a::after {
+    content: "";
+	width: 0px;
+	height: 2px;
+	background-color: #FFE000;
+	transition: 0.3s;
 }
 
 .kd-header .header-itens {
@@ -116,6 +118,10 @@
     border: 1px solid rgba(255, 255, 255, 0.308);
     width: 44px;
     height: 44px;
+}
+
+.kd-header .header-itens .social-icon a:hover {
+    background-color: rgba(255, 255, 255, 0.212);
 }
 
 .kd-header .header-itens .social-icon a img {

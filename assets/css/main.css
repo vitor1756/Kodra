@@ -3,7 +3,7 @@
     width: 100%;
 }
 
-.kd-main header {
+.kd-main>header {
     background-image: url(../img/bg2.svg);
     height: 571px;
     background-position: center;
@@ -13,19 +13,19 @@
     margin-bottom: 5px;
 }
 
-.kd-main header .header-content {
+.kd-main>header .header-content {
     padding: 40px;
     display: flex;
     flex-direction: column;
     gap: 28px;
 }
 
-.kd-main header .header-content h2>img {
+.kd-main>header .header-content h2>img {
     background-color: #5077FB;
     padding: 3px 10px;
 }
 
-.kd-main header .header-content h2 {
+.kd-main>header .header-content h2 {
     font-family: "Montserrat-Regular";
     font-size: 32px;
     color: #3C586D;
@@ -34,7 +34,7 @@
     gap: 7px;
 }
 
-.kd-main header .header-content h3 {
+.kd-main>header .header-content h3 {
     color: #92A4B1;
     font-family: "Poppins-Regular";
     font-size: 15px;
@@ -43,12 +43,12 @@
     width: 100%;
 }
 
-.kd-main header .header-number {
+.kd-main>header .header-number {
     display: flex;
     gap: 4px;
 }
 
-.kd-main header .header-number span {
+.kd-main>header .header-number span {
     padding: 13px 20px;
     border: 1px solid #5078fb3f;
     font-family: "Poppins-Regular";
@@ -56,13 +56,13 @@
     font-size: 22px;
 }
 
-.kd-main header .header-number div {
+.kd-main>header .header-number div {
     display: flex;
     flex-direction: column;
     gap: 4px;
 }
 
-.kd-main header .header-number>div>img {
+.kd-main>header .header-number>div>img {
     padding: 8px 20px;
     border: 1px solid #5078fb4b;
 }
@@ -759,4 +759,248 @@
 .revert button {
     border: 1px solid white !important;
     color: white !important;
+}
+
+
+
+/* OFFER */
+
+
+
+.kd-main .offer>h2 {
+    background-color: white;
+    padding: 33px 37px;
+    font-family: "Montserrat-Regular";
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.kd-main .offer .offer-content {
+    display: flex;
+    gap: 5px;
+}
+
+.kd-main .offer .offer-content article>header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+}
+
+.kd-main .offer .offer-content article>header>div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.kd-main .offer .offer-content article>header>div:nth-child(1)>h3 {
+    font-family: "Roboto-Bold";
+    font-size: 17px;
+    color: #44434A;
+    line-height: 24px;
+}
+
+.kd-main .offer .offer-content article>header>div:nth-child(1)>h4 {
+    font-family: "Roboto-Regular";
+    font-size: 14px;
+    color: #44434A;
+    opacity: .5;
+    line-height: 24px;
+}
+
+.kd-main .offer .offer-content article>header>div:nth-child(2) {
+    background-color: #5077FB;
+    display: flex;
+    align-items: center;
+    padding: 21px;
+    border-radius: 50%;
+}
+
+.kd-main .offer .offer-content article>header>div:nth-child(2)>img {
+    width: 25px;
+}
+
+.kd-main .offer .offer-content article>figure {
+    height: 240px;
+}
+
+
+
+/* TEAM */
+
+
+
+.kd-main .team {
+    margin-bottom: 5px;
+}
+
+.kd-main .team>h2 {
+    background-color: white;
+    padding: 33px 37px;
+    font-family: "Montserrat-Regular";
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.kd-main .team .team-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.kd-main .team .team-content>article {
+    display: flex;
+    background-color: white;
+}
+
+.kd-main .team .team-content>article>figure {
+    padding: 24px 40px 0 40px;
+    height: 463px;
+}
+
+.kd-main .team .team-content>article>div {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.kd-main .team .team-content>article>div .team-social {
+    display: flex;
+    gap: 12px;
+}
+
+.kd-main .team .team-content>article>div .team-social a {
+    border: 1px solid rgba(0, 0, 0, 0.308);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.kd-main .team .team-content>article>div .team-social a:hover {
+    background-color: #5077FB;
+    border: 1px solid transparent;
+}
+
+.hover:hover>img:nth-child(1) {
+    display: none;
+}
+
+.hover:hover>img:nth-child(2) {
+    display: flex !important;
+}
+
+.kd-main .team .team-content>article>div .team-social a:nth-child(1) {
+    padding: 7px 7px;
+}
+
+.kd-main .team .team-content>article>div .team-social a:nth-child(1)>img {
+    width: 27px;
+}
+
+.kd-main .team .team-content>article>div .team-social a:nth-child(2) {
+    padding: 11px 11px;
+}
+
+.kd-main .team .team-content>article>div .team-social a:nth-child(2)>img {
+    width: 19px;
+}
+
+.kd-main .team .team-content>article>div .team-social a:nth-child(3) {
+    padding: 9px 10px;
+}
+
+.kd-main .team .team-content>article>div .team-social a:nth-child(3)>img {
+    width: 21px;
+}
+
+.kd-main .team .team-content>article>div .team-social a:nth-child(4) {
+    padding: 9px 9px;
+}
+
+.kd-main .team .team-content>article>div .team-social a:nth-child(4)>img {
+    width: 23px;
+}
+
+.kd-main .team .team-content>article>div h3 {
+    font-family: "Montserrat-Regular";
+    color: #1C222D;
+    font-size: 23px;
+    line-height: 22px;
+}
+
+.kd-main .team .team-content>article>div p {
+    color: #1C222D;
+    opacity: .7;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: "Poppins-Regular";
+}
+
+.kd-main .team .team-content>article>div button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-family: "Montserrat-Regular";
+    color: #1C222D;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.kd-main .team .team-content>article>div button:hover {
+    gap: 15px;
+}
+
+
+
+/* CONTACT */
+
+
+
+.kd-main .contact {
+    display: flex;
+    background-color: #5077FB;
+}
+
+.kd-main .contact .contact-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 463px;
+    padding: 40px;
+}
+
+.kd-main .contact .contact-content h2 {
+    color: #FFFFFF;
+    font-family: "Montserrat-Regular";
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.kd-main .contact .contact-content input {
+    border: 1px solid rgba(255, 255, 255, 0.308);
+    padding: 14px;
+}
+
+.kd-main .contact .contact-content input::placeholder {
+    color: #F9F9F9;
+    font-family: "Montserrat-Regular";
+    font-size: 15px;
+}
+
+.kd-main .contact .contact-content button {
+    padding: 9px 10px;
+    width: 90px;
+    background-color: rgba(255, 255, 255, 0.164);
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.kd-main .contact .contact-content input:last-of-type {
+    padding-bottom: 63px;
 }

@@ -94,6 +94,10 @@
     padding: 13px;
 }
 
+.kd-header .header-itens .search>input {
+    color: white;
+}
+
 .kd-header .header-itens .search>div>img {
     width: 16px;
 }
